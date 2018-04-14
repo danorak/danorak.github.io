@@ -5,8 +5,9 @@ const HorizontalList = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 0;
+    margin: 0;
     width: 80%;
 `;
 
