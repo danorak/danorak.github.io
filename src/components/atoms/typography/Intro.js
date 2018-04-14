@@ -11,7 +11,7 @@ const Intro = styled.p`
 Intro.defaultProps = {
     color: 'black',
     fontFamily: 'sansSerif',
-    fontSize: [1,3]
+    fontSize: [1,1,2,3]
 };
 
 export default Intro;
