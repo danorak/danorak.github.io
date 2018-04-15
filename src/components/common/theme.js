@@ -21,5 +21,6 @@ const space = [0, 2, 4, 8, 16, 32, 64, 128]
 export default {
     colors,
     fonts,
-    fontSizes
+    fontSizes,
+    space
 };
