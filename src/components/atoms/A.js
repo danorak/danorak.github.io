@@ -8,7 +8,7 @@ const A = styled.a`
 `;
 
 A.defaultProps = {
-    fontFamily: 'sansSerif',
+    fontFamily: 'serif',
     fontSize: [0,1],
     color: 'blue'
 }

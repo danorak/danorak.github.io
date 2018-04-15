@@ -12,7 +12,11 @@ const fonts = {
     sansSerif: "'Libre Franklin',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
 };
 
-const fontSizes = [ '1em','1.414em','1.999em','2.827em','3.998em','5.653em' ]
+const fontSizes = [ 14,18,24,36,48,72 ]
+
+const space = [0, 2, 4, 8, 16, 32, 64, 128]
+
+
 
 export default {
     colors,

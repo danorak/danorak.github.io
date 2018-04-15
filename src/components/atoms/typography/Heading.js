@@ -12,7 +12,7 @@ const Heading = styled.h1`
 
 Heading.defaultProps = {
     color: 'red',
-    fontFamily: 'sansSerif',
+    fontFamily: 'serif',
     fontSize: [3,4,4,5]
 };
 

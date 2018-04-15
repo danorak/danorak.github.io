@@ -24,8 +24,10 @@ class App extends Component {
                 <Heading>Hello, you.</Heading>
               </section>
               <section>
-                <Intro>I’m Dan, a designer and developer based in Sheffield, UK.</Intro>
-                <Intro>I’m currently building Capital One UK’s design system, and trying to find ways to bring design and engineering closer together.</Intro>
+                <p>
+                  <Intro>I’m Dan Jones. I'm a designer and developer based in Sheffield, UK.</Intro><br />
+                  <Intro>I’m currently building Capital One UK’s design system, and finding ways to bring design and engineering closer together.</Intro>
+                </p>
               </section>
               <section>
                 <HorizontalList>
