@@ -8,6 +8,7 @@ import Intro from './components/atoms/typography/Intro';
 import A from './components/atoms/A';
 import HorizontalList, {ItemWrapper} from './components/molecules/HorizontalList';
 import {Flex, Box} from 'grid-styled';
+import { width } from 'styled-system';
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin')
@@ -18,14 +19,13 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <Flex>
-          
-            <main>
-            <Box mx={[ 4,4,6]} my={4}>
+          <main>
+            <Box mx={[ 5,6,7]} mt={7} mb={1}>
               <section>
                 <Heading>Hello, you.</Heading>
               </section>
             </Box>
-            <Box mx={[4,4,6]} my={[1,2]}>
+            <Box mx={[5,6,7]} my={[1,2]} width={[0.8, 0.65]}>
               <section>
                 <p>
                   <Intro>I’m Dan Jones. I'm a designer and developer based in Sheffield, UK.</Intro><br />
@@ -33,10 +33,10 @@ class App extends Component {
                 </p>
               </section>
             </Box>
-            <Box mx={[4,4,6]} mt={[1,2]} mb={[2,4]}>
+            <Box mx={[5,6,7]} mt={1} mb={[2,4]}>
               <section>
                 <HorizontalList>
-                  <ItemWrapper mr={[0,5]}>
+                  <ItemWrapper>
                     <A href="https://twitter.com/danorak">Twitter.</A>
                   </ItemWrapper>
                   <ItemWrapper>

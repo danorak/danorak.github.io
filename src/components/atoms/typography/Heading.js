@@ -6,6 +6,7 @@ const Heading = styled.h1`
     ${fontSize};
     line-height: 1;
     font-weight: 600;
+    margin: 0;
     ${color};
     ${fontFamily};
 `;
