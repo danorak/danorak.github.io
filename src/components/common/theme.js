@@ -16,8 +16,6 @@ const fontSizes = [ 14,18,24,36,48,72 ]
 
 const space = [0, 2, 4, 8, 16, 32, 64, 128]
 
-
-
 export default {
     colors,
     fonts,
