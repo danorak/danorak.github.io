@@ -6,7 +6,7 @@ import theme from './components/common/theme';
 import Heading from './components/atoms/typography/Heading';
 import Intro from './components/atoms/typography/Intro';
 import A from './components/atoms/A';
-import HorizontalList from './components/molecules/HorizontalList';
+import HorizontalList, {ItemWrapper} from './components/molecules/HorizontalList';
 import {Flex, Box} from 'grid-styled';
 
 injectGlobal`
@@ -25,7 +25,7 @@ class App extends Component {
                 <Heading>Hello, you.</Heading>
               </section>
             </Box>
-            <Box mx={[4,4,6]} my={4}>
+            <Box mx={[4,4,6]} my={[1,2]}>
               <section>
                 <p>
                   <Intro>I’m Dan Jones. I'm a designer and developer based in Sheffield, UK.</Intro><br />
@@ -33,12 +33,18 @@ class App extends Component {
                 </p>
               </section>
             </Box>
-            <Box mx={[4,4,6]} mt={6} mb={4}>
+            <Box mx={[4,4,6]} mt={[1,2]} mb={[2,4]}>
               <section>
                 <HorizontalList>
-                  <A href="#">Twitter.</A>
-                  <A href="#">LinkedIn.</A>
-                  <A href="#">Email😔.</A>
+                  <ItemWrapper mr={[0,5]}>
+                    <A href="https://twitter.com/danorak">Twitter.</A>
+                  </ItemWrapper>
+                  <ItemWrapper>
+                    <A href="https://www.linkedin.com/in/uxdanjones/">LinkedIn.</A>
+                  </ItemWrapper>
+                  <ItemWrapper>
+                    <A href="mailto:hello@danjones.website">Email.</A>
+                  </ItemWrapper>
                 </HorizontalList>
               </section>
             </Box>
