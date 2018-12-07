@@ -28,13 +28,16 @@ class App extends Component {
             <Box mx={[5,6,7]} my={[1,2]} width={[0.8, 0.65]}>
               <section>
                 <p>
-                  <Intro>I’m Dan Jones. I'm a designer and developer based in Sheffield, UK.</Intro><br />
-                  <Intro>I’m currently building Capital One UK’s design system, and finding ways to bring design and engineering closer together.</Intro>
+                  <Intro>I’m Dan Jones. I'm a creative technologist based in Sheffield, UK.</Intro><br />
+                  <Intro>Right now I'm working as a Creative Director for the BBC in Salford, looking at how we can evolve to meet the needs of our future audiences.</Intro>
+                  <br />
+                  <Intro>I'm not looking for a new role right now, but I'm always keen to chat about ways of helping design, product & engineering work more harmoniously. <br />Get in touch!</Intro>  
                 </p>
               </section>
             </Box>
             <Box mx={[5,6,7]} mt={1} mb={[2,4]}>
               <section>
+                
                 <HorizontalList>
                   <ItemWrapper>
                     <A href="https://twitter.com/danorak">Twitter.</A>
